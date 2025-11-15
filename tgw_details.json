@@ -1,0 +1,30 @@
+{
+    "TransitGateways": [
+        {
+            "TransitGatewayId": "tgw-0f670212fa7895afa",
+            "TransitGatewayArn": "arn:aws:ec2:us-east-1:360832932700:transit-gateway/tgw-0f670212fa7895afa",
+            "State": "available",
+            "OwnerId": "360832932700",
+            "Description": "Lab17 Multi-VPC TGW",
+            "CreationTime": "2025-11-15T11:07:22+00:00",
+            "Options": {
+                "AmazonSideAsn": 64512,
+                "AutoAcceptSharedAttachments": "enable",
+                "DefaultRouteTableAssociation": "enable",
+                "AssociationDefaultRouteTableId": "tgw-rtb-05e2dc86fe8da658e",
+                "DefaultRouteTablePropagation": "enable",
+                "PropagationDefaultRouteTableId": "tgw-rtb-05e2dc86fe8da658e",
+                "VpnEcmpSupport": "enable",
+                "DnsSupport": "enable",
+                "SecurityGroupReferencingSupport": "disable",
+                "MulticastSupport": "disable"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "TGW-Lab17"
+                }
+            ]
+        }
+    ]
+}

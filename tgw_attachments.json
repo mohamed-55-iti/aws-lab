@@ -1,0 +1,64 @@
+{
+    "TransitGatewayAttachments": [
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-01dfb7b6268f441d8",
+            "TransitGatewayId": "tgw-0f670212fa7895afa",
+            "TransitGatewayOwnerId": "360832932700",
+            "ResourceOwnerId": "360832932700",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-04ddad6deb60c9f48",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-05e2dc86fe8da658e",
+                "State": "associated"
+            },
+            "CreationTime": "2025-11-15T11:10:47+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "TGW-Attach-VPC-B"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-046fd59d430ae4c5e",
+            "TransitGatewayId": "tgw-0f670212fa7895afa",
+            "TransitGatewayOwnerId": "360832932700",
+            "ResourceOwnerId": "360832932700",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-0b3272d99d98228a1",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-05e2dc86fe8da658e",
+                "State": "associated"
+            },
+            "CreationTime": "2025-11-15T11:10:46+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "TGW-Attach-VPC-A"
+                }
+            ]
+        },
+        {
+            "TransitGatewayAttachmentId": "tgw-attach-062a8f04efa5d0064",
+            "TransitGatewayId": "tgw-0f670212fa7895afa",
+            "TransitGatewayOwnerId": "360832932700",
+            "ResourceOwnerId": "360832932700",
+            "ResourceType": "vpc",
+            "ResourceId": "vpc-030ce51729c41f3a2",
+            "State": "available",
+            "Association": {
+                "TransitGatewayRouteTableId": "tgw-rtb-05e2dc86fe8da658e",
+                "State": "associated"
+            },
+            "CreationTime": "2025-11-15T11:10:48+00:00",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "TGW-Attach-VPC-C"
+                }
+            ]
+        }
+    ]
+}
